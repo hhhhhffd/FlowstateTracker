@@ -1,0 +1,25 @@
+{
+  "schemaVersion": 1,
+  "id": "flowtracker",
+  "version": "${version}",
+  "name": "FlowTracker",
+  "description": "",
+  "authors": [],
+  "contact": {},
+  "license": "All-Rights-Reserved",
+  "icon": "assets/flowtracker/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "client": [
+      "unknown.main.flowtracker.client.FlowtrackerClient"
+    ],
+    "main": [
+      "unknown.main.flowtracker.Flowtracker"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=0.19.3",
+    "fabric-api": "*",
+    "minecraft": "~26.2"
+  }
+}
